@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import saludar from './prueba';
 
 function App() {
+  saludar()
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +11,7 @@ function App() {
         <p>
          "EMILIANO GILLINI"
         </p>
+        
         <h2>VIVA</h2>
         <a
           className="App-link"
