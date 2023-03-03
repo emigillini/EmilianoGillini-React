@@ -1,39 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
 import saludar from './prueba';
+import Tutores from './componentes/tutoresUl';
+import Noticias from './componentes/Noticias';
+import Tutor from './componentes/tutor';
 
-let styles = {
-  borderColor: "black",
-  marginLeft: 500
-};
-
-const letra =() =>{
-  alert("muy bien")
-}
 
 function App() {
-  saludar()
+  saludar();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p style={styles}>
-         "EMILIANO GILLINI"
-        </p>
-        <button id='bot1' onClick={letra}>soy </button>
-        
-        <h2>VIVA</h2>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+  <div>
+    
+<Noticias/>
+  <Tutores/>
+<Tutor nombre="dante" edad={28}/>
+  </div>
   );
+  
 }
 
 export default App;
