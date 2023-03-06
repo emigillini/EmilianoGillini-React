@@ -1,4 +1,4 @@
-const Tutores = ()=>{
+export const Tutores = ()=>{
     return (
     <ul>
         <h2>tutores</h2>
@@ -10,5 +10,5 @@ const Tutores = ()=>{
     </ul>
 )}
 
-export default Tutores;
+
 //simepre componentes en mayuscukas
